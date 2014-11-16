@@ -3,11 +3,11 @@
   <display-name>ab_mobile</display-name>
     <servlet>
         <servlet-name>dispatcherServlet</servlet-name>
-        <servlet-class>com.feihuwang.servlet</servlet-class>
+        <servlet-class>com.feihuwang.servlet.DispatcherServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcherServlet</servlet-name>
-        <url-pattern>/dispatcherServlet</url-pattern>
+        <url-pattern>/path</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
