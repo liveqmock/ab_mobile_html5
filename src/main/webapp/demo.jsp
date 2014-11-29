@@ -49,5 +49,11 @@
     </p>
   	<div id="ItemBOM" class="Content">$T.statusText</div>
 	<%@include file="./include/footer.jsp"%>
+	
+	<script type="text/javascript">
+	   $(function(){
+		   $("#product").html("test zgc");
+	   });
+	</script>
 </body>
 </html>

@@ -1,28 +1,15 @@
 <%@ page language="java"  contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta content="black" name="apple-mobile-web-app-status-bar-style">
-<meta content="telephone=no" name="format-detection">
-<meta content="email=no" name="format-detection">
-<title>木木媒体触屏版</title>
-<meta name="keywords" content="木木媒体 木木产品">
-<meta name="Description" content="集媒体与产品行销">
-<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="../css/shop-mobi.css" rel="stylesheet" media="screen">
-<link href="../css/mumu_mobi.css" rel="stylesheet" media="screen">
-<script src="../js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/mumu_good.js"></script>
-</head>
-
+<%@include file="/include/header.jsp"%>
 <!---
 收货人列表页面
   完成删除, 编辑, 点击选中
 -->
-
 <body class="bd">
 <div class="header-wrapper">
   <div class="top-box">
@@ -96,10 +83,7 @@
 <!---底部内容footer-->
 <div id="footer-wrapper">
   <footer>
-    <div class="shop_foot_body">
-      <div class="shop_foot_body_foot">
-        <a href="#top" data-smooth class="shop_foot_body_foot2"><span class="glyphicon glyphicon-circle-arrow-up"></span></a> </div>
-    </div>
+    <%@include file="/include/footer.jsp"%>
   </footer>
 </div>
 </body>

@@ -1,22 +1,7 @@
 <%@ page language="java"  contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta content="black" name="apple-mobile-web-app-status-bar-style">
-<meta content="telephone=no" name="format-detection">
-<meta content="email=no" name="format-detection">
-<title>木木媒体触屏版</title>
-<meta name="keywords" content="木木媒体 木木产品">
-<meta name="Description" content="集媒体与产品行销">
-<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="../css/shop-mobi.css" rel="stylesheet" media="screen">
-<link href="../css/mumu_mobi.css" rel="stylesheet" media="screen">
-<script src="../js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/mumu.js"></script>
-</head>
+<%@include file="/include/header.jsp"%>
 <body class="bd">
 <div class="header-wrapper">
   <div class="top-box">
@@ -45,7 +30,7 @@
               <p class="article_summary">这一次，理由只有一个；我不想白白爱国自行车------证明爱的方式只有一种...</p>
             </div>
             <div class="col-xs-5 img_layout">
-              <div class="article_img"> <img src="../imgs/news_demo.png"/> </div>
+              <div class="article_img"> <img src="<%=path %>/imgs/news_demo.png"/> </div>
             </div>
           </div>
           <div class="row article_bottom">
@@ -68,7 +53,7 @@
               <p class="article_summary">这一次，理由只有一个；我不想白白爱国自行车------证明爱的方式只有一种，那就是为他付出，为他做些什么。</p>
             </div>
             <div class="col-xs-5 img_layout">
-              <div class="article_img"> <img src="../imgs/news_demo.png"/> </div>
+              <div class="article_img"> <img src="<%=path %>/imgs/news_demo.png"/> </div>
             </div>
           </div>
           <div class="row article_bottom">
@@ -89,13 +74,7 @@
 </div>
 <div id="footer-wrapper">
   <footer>
-    <div class="shop_foot_body">
-      <div class="shop_foot_body_foot">
-        <div class="shop_foot_body_foot1"> <a href="pinpaijieshao.php">品牌介绍</a> | <a href="kaidianzhengce.php">木木产品</a> | <a href="index.php">产品展厅</a><br>
-          Copyright © 2014 蜀ICP备11021943号 </div>
-        <a href="#top" data-smooth class="shop_foot_body_foot2"><span class="glyphicon glyphicon-circle-arrow-up"></span></a> </div>
-    </div>
-    
+    <%@include file="/include/footer.jsp"%>
     <!--遮罩层-->
     <div id="zhezhao" style="display: none; "> 
       <!--侧面目录抽屉-->
