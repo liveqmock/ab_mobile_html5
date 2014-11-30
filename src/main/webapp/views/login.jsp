@@ -1,8 +1,4 @@
 <%@ page language="java"  contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%
-	String path = request.getContextPath();
-	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
 <!doctype html>
 <html>
 <head>
@@ -13,17 +9,14 @@
   <div class="top-box">
     <div class="box1"><a href="javascript:history.back(-1);" class="back" title="返回"></a></div>
     <div class="box2">
-      <h4>木木·触屏版</h4>
+      <h4>木木·登录</h4>
     </div>
     <div class="box3"></div>
   </div>
 </div>
 <div id="top"  class="content-wrapper">
   <div class="container-fluid content_box" > 
-      
-      
       <form class="mumu_form form" role="form">
-      
         <div class="form-group">
             <div class="col-xs-10 col-xs-offset-1">
                <div class="input-group">

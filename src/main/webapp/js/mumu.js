@@ -167,8 +167,14 @@ jQuery.cookie = function(name, value, options) {
 
 $(".lazyLoading").imgLazyLoading();
 
-$(function(){
-	$(".article_module").on("click", function(){
-		 window.location.href="mumu_news.html";
-		}); 
-});
+
+//$(function(){
+//	$().on("click",".article_module",function(){
+//		
+//		var  channel_id = $(this).data("channelId");
+//		 var content_id = $(this).data("contentId");
+//		 alert("channelId: " + channel_id);
+//		 window.location.href="mumu_news.html";
+//	})
+//});
+

@@ -3,6 +3,7 @@
 <html>
 <head>
 <%@include file="/include/header.jsp"%>
+<%@include file="/include/channel_content_detail.jsp"%>
 </head>
 <body class="bd">
 <div class="header-wrapper">
@@ -17,7 +18,7 @@
 <div id="top"  class="content-wrapper">
   <div class="container-fluid content_box" > 
     <!---内容详情-->
-    <div class="article_de">
+    <div id="content_detail" class="article_de">
       <div class="row">
         <p class="article_title">果酸护肤</p>
       </div>
@@ -49,7 +50,7 @@
       <li> 
         <!--评价内容列表-->
         <div class="row comment_article">
-        <div class="col-xs-2 text-center"> <img class="author_head" src="images/default_header.png"/> </div>
+        <div class="col-xs-2 text-center"> <img class="author_head" src="<%=path %>/images/default_header.png"/> </div>
         <div class="col-xs-10">
           <p>彩妆达人</p>
           <p class="commnet_content">果酸有换肤作用，建议角质层薄的女生尽量少用。</p>
@@ -59,7 +60,7 @@
       <li> 
         <!--评价内容列表-->
         <div class="row comment_article">
-          <div class="col-xs-2 text-center"> <img class="author_head" src="images/default_header.png"/> </div>
+          <div class="col-xs-2 text-center"> <img class="author_head" src="<%=path %>/images/default_header.png"/> </div>
           <div class="col-xs-10">
             <p>彩妆达人</p>
             <p class="commnet_content">果酸有换肤作用，建议角质层薄的女生尽量少用。</p>

@@ -7,6 +7,7 @@
 <head>
 <%@include file="/include/header.jsp"%>
 <%@include file="/include/channel.jsp"%>
+<%@include file="/include/channel_content_list.jsp"%>
 </head>
 <body class="bd">
 <div class="header-wrapper">
@@ -26,7 +27,7 @@
 </div>
 <div id="top" class="content-wrapper">
   <div class="container-fluid content_box" >
-    <div class="row"> 
+    <div id="channle_content_container" class="row"> 
       <!---媒体信息--->
       <div class="col-xs-12">
         <div class="article_st">
