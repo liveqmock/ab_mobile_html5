@@ -1,7 +1,9 @@
 <%@ page language="java"  contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!doctype html>
 <html>
+<head>
 <%@include file="/include/header.jsp"%>
+</head>
 <!---
 收货人列表页面
   完成删除, 编辑, 点击选中

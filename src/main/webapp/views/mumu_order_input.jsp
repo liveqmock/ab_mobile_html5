@@ -1,7 +1,9 @@
 <%@ page language="java"  contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!doctype html>
 <html>
+<head>
 <%@include file="/include/header.jsp"%>
+</head>
 <!---
 订单详情内容： 
   ·1. 订单的数量

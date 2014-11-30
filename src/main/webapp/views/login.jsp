@@ -5,7 +5,9 @@
 %>
 <!doctype html>
 <html>
+<head>
 <%@include file="/include/header.jsp"%>
+</head>
 <body class="bd">
 <div class="header-wrapper">
   <div class="top-box">
